@@ -1,0 +1,45 @@
+import PrimaryButton from './common/PrimaryButton'
+import { processData } from './common/Helper'
+
+const OurProcess = () => {
+    return (
+        <>
+            <div className='lg:py-[100px] py-14 sm:py-16 md:py-20  bg-lightPink'>
+                <div className=' max-w-[1172px] mx-auto px-4 flex justify-center items-center flex-col'>
+                    <h2 className='text-black font-plusSans font-semibold mb-5 lg:text-x6xl md:text-5xl sm:text-4xl !leading-127 text-3xl text-center'>Our Process</h2>
+                    <p className=' text-center max-w-[590px] font-plusSans leading-160 text-lg mx-auto mb-14'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. </p>
+                    <div className='w-full max-lg:relative items-center max-lg:flex justify-center'>
+                        <div className='max-sm:hidden flex flex-col lg:flex-row lg:top-0 justify-between md:w-full max-w-[875px] mx-auto max-lg:left-0 h-[80%] lg:mb-9 max-lg:absolute relative z-[1]'>
+                            <div className='bg-lightRed rounded-full font-plusSans flex items-center font-semibold justify-center sm:w-[88px] sm:h-[88px] text-mdlg text-white'>
+                                01
+                            </div>
+                            <div className='bg-lightRed rounded-full font-plusSans flex items-center font-semibold justify-center sm:w-[88px] sm:h-[88px] text-mdlg text-white'>
+                                02
+                            </div>
+                            <div className='bg-lightRed rounded-full font-plusSans flex items-center font-semibold justify-center sm:w-[88px] sm:h-[88px] text-mdlg text-white'>
+                                03
+                            </div>
+                            <span className=' bg-transparent border-black border-dashed absolute max-lg:h-[90%] top-5  lg:w-[calc(100%-50px)] translate-y-0 lg:top-[50%] translate-x-0 left-10 z-[-1] border-[2px]'></span>
+                        </div>
+                        <div className='grid lg:grid-cols-3 grid-cols-1 gap-6'>
+                            {processData.map((obj, index) => {
+                                return (
+                                    <div key={index} className='bg-white rounded-3xl shadow-smallBlack p-6 max-w-[364px]'>
+                                        <a href="#">{obj.icon}</a>
+                                        <p className=' text-2xl font-semibold text-black text-nowrap font-plusSans leading-160 mt-6 mb-3'>{obj.title}</p>
+                                        <p className='text-base font-normal leading-160 text-black'>{obj.description}</p>
+                                    </div>
+                                )
+                            })}
+                        </div>
+                    </div>
+                    <div className=' text-center flex items-center justify-center mt-9'>
+                        <PrimaryButton text="Get A Quote" className="bg-lightRed text-white leading-[23px] hover:text-lightRed hover:bg-white hover:outline outline-[1px] hover:outline-lightRed" />
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default OurProcess

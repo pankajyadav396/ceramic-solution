@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.slick-slide {
+    max-width: 364px !important;
+    margin: 0px 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-100 {
+    background-size: 100% 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-intrested {
+    background-image: url('../src/assets/images/webp/intrestedBg.webp');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loader div {
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
-.App-link {
-  color: #61dafb;
+.loader div:nth-child(1) {
+    left: 8px;
+    animation: flip1 0.6s infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loader div:nth-child(2) {
+    left: 8px;
+    animation: flip2 0.6s infinite;
+}
+
+
+.loader div:nth-child(3) {
+    left: 32px;
+    animation: flip2 0.6s infinite;
+}
+
+.loader div:nth-child(4) {
+    left: 56px;
+    animation: flip3 0.6s infinite;
+}
+
+@keyframes flip1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes flip3 {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes flip2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+
+@media (max-width:500px) {
+    .slick-slide {
+        margin: 0 12px !important;
+        max-width: 365px !important;
+    }
 }
