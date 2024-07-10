@@ -23,7 +23,7 @@ const Customer = () => {
                                     <p className=' text-xl font-manrop font-normal leading-160 '>4.6</p>
                                     <img src={stars} alt="stars" className=' h-[16.67px]' />
                                 </div>
-                                <p className=' text-xsm font-normal mt-[-2px] leading-160 font-manrop'>Based on 145 reviews</p>
+                                <p className=' text-xsm font-normal mt-[-2px] leading-160 font-manrop text-lightBlack'>Based on 145 reviews</p>
                             </div>
                         </div>
                         <div className='bg-white h-[80px] rounded-2xl ps-2 border w-[229.17px] border-black gap-1 border-opacity-10 flex items-center justify-start'>
@@ -34,7 +34,7 @@ const Customer = () => {
                                     <p className=' text-xl font-manrop font-normal leading-160 '>4.6</p>
                                     <img src={stars} alt="stars" className=' h-[16.67px]' />
                                 </div>
-                                <p className=' text-xsm font-normal mt-[-2px] leading-160 font-manrop'>Based on 145 reviews</p>
+                                <p className=' text-xsm font-normal mt-[-2px] leading-160 font-manrop text-lightBlack'>Based on 145 reviews</p>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,10 @@ module.exports = {
       colors: {
         "lightRed": "#FF0000",
         "lightPink": "#FFEBEB",
-        "darkblue": "#1B2228",
+        "darkBlue": "#1B2228",
+        "lightBlack": "#141414",
+        "greyBlack": "#010101",
+        "footBlack":"#1B2228"
       },
       fontSize: {
         "exlg": "64px",

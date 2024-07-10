@@ -15,7 +15,7 @@ const Accordion = ({ items }) => {
     return (
         <div className="max-w-[912px] px-3 mx-auto lg:mt-[140px] md:mt-20 sm:mt-16 mt-14">
             <h2 className='text-black text-center font-plusSans !leading-127 font-semibold mb-5 lg:text-x6xl md:text-5xl sm:text-4xl text-3xl'>Frequently Asked Questions</h2>
-            <p className='max-w-[590px] text-center text-lg leading-160 mx-auto md:mb-14 mb-8 sm:mb-12'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade </p>
+            <p className='max-w-[590px] text-center text-greyBlack text-lg leading-160 mx-auto md:mb-14 mb-8 sm:mb-12'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade </p>
             {accordionData.map((item, index) => (
                 <div key={index} className="shadow-xsmBlack mb-6 rounded-2xl">
                     <button className="w-full flex justify-between gap-5 items-center p-4 sm:p-[21.6px_20px] rounded-2xl"

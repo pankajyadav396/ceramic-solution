@@ -6,7 +6,7 @@ const OurBlog = () => {
     return (
         <>
             <h2 className='text-black font-plusSans font-semibold mb-5 lg:text-x6xl md:text-5xl sm:text-4xl text-3xl !leading-127 text-center' id='Request'>Our Blog</h2>
-            <p className='max-w-[590px] text-center font-plusSans text-lg leading-160 mx-auto md:mb-14 mb-10 px-3'>Lörem ipsum koda astrobel: sutaveligen.Rodod bänera viliga.Pregigt primasofi dede facebooka: förutom tivaligt.Fejkade </p>
+            <p className='max-w-[590px] text-center text-greyBlack font-plusSans text-lg leading-160 mx-auto md:mb-14 mb-10 px-3'>Lörem ipsum koda astrobel: sutaveligen.Rodod bänera viliga.Pregigt primasofi dede facebooka: förutom tivaligt.Fejkade </p>
 
             <div className=' max-w-[1178px] mx-auto px-4 max-sm:max-w-[450px] flex justify-center'>
                 <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 lg:gap-6'>
