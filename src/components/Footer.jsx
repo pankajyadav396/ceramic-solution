@@ -68,7 +68,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div >
+                </div>
 
                 <div className='bg-blackGrediant flex h-[1px] w-full'></div>
                 <div className='py-4'>
