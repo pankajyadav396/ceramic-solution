@@ -12,8 +12,8 @@ const Header = () => {
         <>
             <div className='bg-lightRed pt-6 min-h-[810px] pb-[59px]' id='home'>
                 <Navbar />
-                <div className='mx-auto max-w-[1172px] px-4 md:mt-12 mt-10 lg:mt-[79px] '>
-                    <h1 className='max-md:mx-auto max-md:text-center lg:text-exlg sm:text-5xl text-4xl text-white font-semibold !leading-127 font-plusSans max-w-[830px]'>
+                <div className='mx-auto max-w-[1172px] px-4 md:mt-16 mt-10 lg:mt-[79px] '>
+                    <h1 className='max-md:mx-auto max-md:text-center lg:text-exlg md:text-6xl sm:text-5xl text-4xl text-white font-semibold !leading-127 font-plusSans max-w-[830px]'>
                         Transform Your Space with Precision and Quality:
                         Get a Free Quote Today!
                     </h1>
