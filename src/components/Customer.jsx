@@ -1,13 +1,9 @@
 import googlelogo from "../assets/images/svg/googleLogo.svg"
 import pilotlogo from "../assets/images/svg/trustPilotLogo.svg"
 import stars from "../assets/images/svg/yellowStars.svg"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import React from "react";
-import Slider from "react-slick";
 import { customerData } from "./common/Helper";
 import { A11y } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
