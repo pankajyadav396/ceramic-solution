@@ -26,15 +26,15 @@ const OurProcess = () => {
                                 return (
                                     <div key={index} className='bg-white rounded-3xl shadow-smallBlack p-6 max-w-[364px]'>
                                         <a href="#">{obj.icon}</a>
-                                        <p className=' lg:text-2xl text-lg sm:text-xl font-semibold text-black text-nowrap font-plusSans leading-160 mt-6 mb-3'>{obj.title}</p>
-                                        <p className='text-sm sm:text-base font-plusSans font-normal leading-160 text-black'>{obj.description}</p>
+                                        <p className=' lg:text-2xl text-lg sm:text-xl font-semibold text-black text-nowrap font-plusSans !leading-160 mt-6 mb-3'>{obj.title}</p>
+                                        <p className='text-sm sm:text-base font-plusSans font-normal !leading-160 text-black'>{obj.description}</p>
                                     </div>
                                 )
                             })}
                         </div>
                     </div>
                     <div className=' text-center flex items-center justify-center mt-9'>
-                        <PrimaryButton text="Get A Quote" className="bg-lightRed text-white leading-[23px] hover:text-lightRed hover:bg-white hover:outline outline-[1px] hover:outline-lightRed" />
+                        <PrimaryButton text="Get A Quote" className="bg-lightRed text-white !leading-[23px] hover:text-lightRed hover:bg-white hover:outline outline-[1px] hover:outline-lightRed" />
                     </div>
                 </div>
             </div>

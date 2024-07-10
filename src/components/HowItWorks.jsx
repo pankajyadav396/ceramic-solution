@@ -29,8 +29,8 @@ const HowItWorks = () => {
                             })}
                         </div>
                         <div className=' flex gap-6 mt-9 max-[460px]:flex-col'>
-                            <PrimaryButton text="Get A Quote" className="bg-lightRed hover:bg-white text-white hover:text-lightRed border flex items-center justify-center border-lightRed h-[63px] leading-[23px]" />
-                            <PrimaryButton text="View Tile Visualizer" className="text-lightRed  border border-lightRed h-[63px] leading-[23px] hover:bg-lightRed hover:text-white" />
+                            <PrimaryButton text="Get A Quote" className="bg-lightRed hover:bg-white text-white hover:text-lightRed border flex items-center justify-center border-lightRed h-[63px] !leading-[23px]" />
+                            <PrimaryButton text="View Tile Visualizer" className="text-lightRed  border border-lightRed h-[63px] !leading-[23px] hover:bg-lightRed hover:text-white" />
                         </div>
                     </div>
                 </div>
