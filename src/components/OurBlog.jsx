@@ -16,7 +16,7 @@ const OurBlog = () => {
                                 <img src={obj.img} alt="img" className='w-full sm:max-w-[316px]' />
                                 <p className=" mt-6 md:text-2xl sm:text-xl text-lg font-semibold font-plusSans !leading-160">{obj.title}</p>
                                 <div className=" flex items-center gap-[10px] mt-4">
-                                    <p className=" text-lightRed text-base font-semibold cursor-pointer leading-160">Learn More </p>
+                                    <p className=" text-lightRed font-plusSans text-base font-semibold cursor-pointer leading-160">Learn More </p>
                                     <img src={arrow} alt="arrowimg" />
                                 </div>
                             </div>
