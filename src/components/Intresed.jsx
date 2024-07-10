@@ -10,7 +10,7 @@ const Intresed = () => {
                         <h2 className='text-white text-center font-plusSans !leading-127 font-semibold mb-[20.2px] lg:text-x6xl md:text-5xl sm:text-4xl text-3xl'>Interested? <span className='block'>Get in touch with us</span> </h2>
                         <p className='max-w-[590px] text-white text-center text-lg leading-160 mx-auto'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. </p>
                         <div className=' text-center mt-9'>
-                            <PrimaryButton text="Get A Quote" className="bg-white leading-[23px] !text-lightRed" />
+                            <PrimaryButton text="Get A Quote" className="bg-white leading-[23px] hover:bg-lightRed hover:text-white !text-lightRed" />
                         </div>
                     </div>
                 </div>
