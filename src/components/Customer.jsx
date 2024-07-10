@@ -54,8 +54,8 @@ const Customer = () => {
                         >
                             {customerData.map((obj, index) => {
                                 return (
-                                    <SwiperSlide className="py-5">
-                                        <div key={index} className="p-6 rounded-3xl shadow-xsmBlack !max-w-[364px]">
+                                    <SwiperSlide key={index} className="py-5">
+                                        <div className="p-6 rounded-3xl shadow-xsmBlack !max-w-[364px]">
                                             <div className=" flex flex-col gap-4">
                                                 <div className=" flex gap-2">
                                                     <img src={obj.img} alt="markt" className="w-10 h-10" />

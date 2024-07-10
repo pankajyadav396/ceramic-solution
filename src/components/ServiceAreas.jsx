@@ -11,8 +11,8 @@ const ServiceAreas = () => {
                     <div className='flex flex-row flex-wrap items-center justify-center -mx-3'>
                         {locationData.map((obj, index) => {
                             return (
-                                <div className='px-3 md:w-4/12 min-[320px]:w-6/12 mb-6 w-full max-w-[388px]'>
-                                    <div key={index} className='bg-white max-w-[364px] flex  max-md:justify-center items-center rounded-3xl gap-3 shadow-xsmBlack sm:p-6 p-4'>
+                                <div key={index} className='px-3 md:w-4/12 min-[320px]:w-6/12 mb-6 w-full max-w-[388px]'>
+                                    <div className='bg-white max-w-[364px] flex  max-md:justify-center items-center rounded-3xl gap-3 shadow-xsmBlack sm:p-6 p-4'>
                                         <img src={obj.img} alt="img-location" className='w-8 h-8 sm:w-12 sm:h-12' />
                                         <p className='md:text-2xl text-lg sm:text-xl font-semibold font-plusSans leading-160'>{obj.title}</p>
                                     </div>
