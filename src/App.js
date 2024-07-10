@@ -15,18 +15,20 @@ import WhatWeDo from './components/WhatWeDo';
 function App() {
   return (
     <>
-      <Preloader />
-      <Backtotop />
-      <Header />
-      <WhatWeDo />
-      <OurProcess />
-      <Customer />
-      <HowItWorks />
-      <Intresed />
-      <OurBlog />
-      <Accordion />
-      <ServiceAreas />
-      <Footer />
+      <div className='overflow-hidden'>
+        <Preloader />
+        <Backtotop />
+        <Header />
+        <WhatWeDo />
+        <OurProcess />
+        <Customer />
+        <HowItWorks />
+        <Intresed />
+        <OurBlog />
+        <Accordion />
+        <ServiceAreas />
+        <Footer />
+      </div>
     </>
   );
 }

@@ -7,7 +7,7 @@ const OurProcess = () => {
             <div className='lg:py-[100px] py-14 sm:py-16 md:py-20  bg-lightPink'>
                 <div className=' max-w-[1172px] mx-auto px-4 flex justify-center items-center flex-col'>
                     <h2 className='text-black font-plusSans font-semibold mb-5 lg:text-x6xl md:text-5xl sm:text-4xl !leading-127 text-3xl text-center'>Our Process</h2>
-                    <p className=' text-center max-w-[590px] font-plusSans leading-160 text-lg mx-auto mb-14'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. </p>
+                    <p className=' text-center max-w-[590px] font-plusSans leading-160 text-lg mx-auto mb-10 sm:mb-12 md:mb-14'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. </p>
                     <div className='w-full max-lg:relative items-center max-lg:flex justify-center'>
                         <div className='max-sm:hidden flex flex-col lg:flex-row lg:top-0 justify-between md:w-full max-w-[875px] mx-auto max-lg:left-0 h-[80%] lg:mb-9 max-lg:absolute relative z-[1]'>
                             <div className='bg-lightRed rounded-full font-plusSans flex items-center font-semibold justify-center sm:w-[88px] sm:h-[88px] text-mdlg text-white'>

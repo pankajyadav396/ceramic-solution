@@ -6,34 +6,15 @@ import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
 import { customerData } from "./common/Helper";
+import { A11y } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 const Customer = () => {
-    var settings = {
-        infinite: true,
-        loop: true,
-        speed: 500,
-        centerSlide: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    centeredSlide:true,
-                },
-                breakpoint: 500,
-                settings: {
-                    slidesToShow: 1,
-                    centeredSlide:true,
-                }
-            },
-        ]
-    };
-
     return (
         <>
-            <div className='lg:mt-[116px] lg:mb-[140px] my-14 sm:my-16 md:my-20 overflow-hidden'>
+            <div className='lg:mt-[196px] lg:mb-[120px] my-10 sm:my-12 md:my-20 overflow-hidden'>
                 <div className=' max-w-[1172px] mx-auto px-4 flex justify-center items-center flex-col'>
                     <h2 className='text-black font-plusSans font-semibold mb-5 lg:text-x6xl md:text-5xl sm:text-4xl text-3xl !leading-127 text-center'>What Our Customers Say</h2>
                     <p className=' text-center max-w-[590px] text-lg font-plusSans max-sm:text-base leading-160 mx-auto mb-8'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade</p>
@@ -61,31 +42,48 @@ const Customer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" max-w-[1916px] mt-14">
-                        <Slider {...settings}>
+                    <div className=" max-w-[1916px] mt-8 sm:mt-10 md:mt-14">
+
+                        <Swiper
+                            modules={[A11y]}
+                            slidesPerView={5}
+                            centeredSlides={true}
+                            spaceBetween={24}
+                            roundLengths={true}
+                            loop={true}
+                            scrollbar={{ draggable: true }}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            onSlideChange={() => console.log('slide change')}
+
+                        >
                             {customerData.map((obj, index) => {
                                 return (
-                                    <div key={index} className="p-6 shadow-xsmBlack !max-w-[364px]">
-                                        <div className=" flex flex-col gap-4">
-                                            <div className=" flex gap-2">
-                                                <img src={obj.img} alt="markt" className="w-10 h-10" />
-                                                <div className=" flex flex-col">
-                                                    <p className="text-base text-black font-bold font-manrop">{obj.title} </p>
-                                                    <p className=" text-sm text-black font-normal leading-160 font-manrop">{obj.bio}</p>
+                                    <SwiperSlide className="py-5">
+                                        <div key={index} className="p-6 rounded-3xl shadow-xsmBlack !max-w-[364px]">
+                                            <div className=" flex flex-col gap-4">
+                                                <div className=" flex gap-2">
+                                                    <img src={obj.img} alt="markt" className="w-10 h-10" />
+                                                    <div className=" flex flex-col">
+                                                        <p className="text-base text-black font-bold font-manrop">{obj.title} </p>
+                                                        <p className=" text-sm text-black font-normal leading-160 font-manrop">{obj.bio}</p>
+                                                    </div>
                                                 </div>
+                                                <img src={stars} alt="stars" className="max-w-[120px] h-6" />
+                                                <p className="text-base text-black font-normal leading-160 font-manrop">{obj.description}</p>
                                             </div>
-                                            <img src={stars} alt="stars" className="max-w-[120px] h-6" />
-                                            <p className="text-base text-black font-normal leading-160 font-manrop">{obj.description}</p>
                                         </div>
-                                    </div>
+                                    </SwiperSlide>
                                 )
                             })}
-                        </Slider>
+                        </Swiper>
                     </div>
                 </div>
-            </div>
+            </div >
+
         </>
     )
 }
 
 export default Customer
+
+

@@ -4,7 +4,7 @@ import { locationData } from './common/Helper'
 const ServiceAreas = () => {
     return (
         <>
-            <div className='max-w-[1172px] mx-auto px-3 lg:mt-[140px] md:mt-20 sm:mt-16 mt-14'>
+            <div className='max-w-[1172px] mx-auto px-3 lg:mt-[140px] md:mt-20 sm:mt-16 mt-14' id='services'>
                 <h2 className='text-black max-md:text-center font-plusSans font-semibold  !leading-127 mb-5 lg:text-x6xl md:text-5xl sm:text-4xl capitalize text-3xl'>We provide services <span className='block'> in these areas</span></h2>
                 <p className='max-w-[590px] max-md:text-center max-md:mx-auto text-lg font-plusSans md:mb-14 mb-10 sm:mb-12'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. </p>
                 <div className='w-full '>
