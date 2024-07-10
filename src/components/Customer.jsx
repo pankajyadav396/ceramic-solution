@@ -10,7 +10,7 @@ import 'swiper/css';
 const Customer = () => {
     return (
         <>
-            <div className='lg:mt-[96px] lg:mb-[120px] my-10 sm:my-12 md:my-20 overflow-hidden'>
+            <div className='lg:mt-[116px] lg:mb-[120px] my-10 sm:my-12 md:my-20 overflow-hidden'>
                 <div className=' max-w-[1172px] mx-auto px-4 flex justify-center items-center flex-col'>
                     <h2 className='text-black font-plusSans font-semibold mb-5 lg:text-x6xl md:text-5xl sm:text-4xl text-3xl !leading-127 text-center'>What Our Customers Say</h2>
                     <p className=' text-center max-w-[590px] text-lg font-plusSans max-sm:text-base leading-160 mx-auto mb-8'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade</p>
@@ -38,7 +38,7 @@ const Customer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" max-w-[1916px] mt-8 sm:mt-10 md:mt-14">
+                    <div className=" max-w-[1916px] mt-8 sm:mt-10 md:mt-[36px]">
 
                         <Swiper
                             modules={[A11y]}
