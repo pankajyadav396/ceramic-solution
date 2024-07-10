@@ -61,7 +61,7 @@ const Footer = () => {
                                         <li className='mb-3'><a href="" className='capitalize hover:after:w-[100%] hover:after:left-0 after:right-0 after:w-0 after:absolute after:bg-black after:h-[1.5px] relative after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear text-base font-plusSans font-normal leading-160'>Stay up to date</a></li>
                                         <div className='border max-w-[340px] border-black border-opacity-15 p-[10px] rounded-[62px] flex items-center justify-between'>
                                             <input type="email" className='w-[110px] !outline-none' placeholder='Your email ' />
-                                            <button className='px-10 py-4 bg-lightRed text-white rounded-[62px]'>Subscribe</button>
+                                            <button className='px-10 py-4 bg-lightRed font-plusSans text-base leading-[26px] font-semibold text-white rounded-[62px]'>Subscribe</button>
                                         </div>
                                     </ul>
                                 </div>
