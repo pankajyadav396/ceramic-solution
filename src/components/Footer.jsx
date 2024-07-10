@@ -70,7 +70,7 @@ const Footer = () => {
                     </div>
                 </div >
 
-                <div className='bg-darkBlue Grediant flex h-[1px] w-full'></div>
+                <div className='bg-blackGrediant flex h-[1px] w-full'></div>
                 <div className='py-4'>
                     <p className=' font-plusSans font-normal leading-160 text-base text-darkBlue  text-center'>Copyright {currentYear} ceramicsolutions.com all rights reserved</p>
                 </div>
