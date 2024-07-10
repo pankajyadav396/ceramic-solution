@@ -21,10 +21,10 @@ const Footer = () => {
                                     <p className='text-base text-darkBlue  leading-160 font-normal font-plusSans'>+1 234 456 678 89</p>
                                 </a>
                                 <div className='flex gap-2 mt-6'>
-                                    <a href="https://www.facebook.com/login/"><Facebook /></a>
-                                    <a href="https://www.instagram.com/"><Insta /></a>
-                                    <a href="https://x.com/?lang=en"> <Twitter /></a>
-                                    <a href="https://in.linkedin.com/"><Linkedin /></a>
+                                    <a href="https://www.facebook.com/login/" target='_blank'><Facebook /></a>
+                                    <a href="https://www.instagram.com/" target='_blank'><Insta /></a>
+                                    <a href="https://x.com/?lang=en" target='_blank'> <Twitter /></a>
+                                    <a href="https://in.linkedin.com/" target='_blank'><Linkedin /></a>
                                 </div>
                             </div>
                         </div>
