@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
-.slick-slide {
-    max-width: 364px !important;
-    margin: 0px 12px;
-}
 *{
     scroll-behavior: smooth;
 }
@@ -67,12 +63,5 @@
 
     100% {
         transform: translate(24px, 0);
-    }
-}
-
-@media (max-width:500px) {
-    .slick-slide {
-        margin: 0 12px !important;
-        max-width: 365px !important;
     }
 }
