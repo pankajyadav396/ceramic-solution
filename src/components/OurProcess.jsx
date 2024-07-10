@@ -26,8 +26,8 @@ const OurProcess = () => {
                                 return (
                                     <div key={index} className='bg-white rounded-3xl shadow-smallBlack p-6 max-w-[364px]'>
                                         <a href="#">{obj.icon}</a>
-                                        <p className=' text-2xl font-semibold text-black text-nowrap font-plusSans leading-160 mt-6 mb-3'>{obj.title}</p>
-                                        <p className='text-base font-normal leading-160 text-black'>{obj.description}</p>
+                                        <p className=' lg:text-2xl text-lg sm:text-xl font-semibold text-black text-nowrap font-plusSans leading-160 mt-6 mb-3'>{obj.title}</p>
+                                        <p className='text-sm sm:text-base font-plusSans font-normal leading-160 text-black'>{obj.description}</p>
                                     </div>
                                 )
                             })}
