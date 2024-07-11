@@ -3,7 +3,7 @@ import pilotlogo from "../assets/images/svg/trustPilotLogo.svg"
 import stars from "../assets/images/svg/yellowStars.svg"
 import React from "react";
 import { customerData } from "./common/Helper";
-import { A11y } from 'swiper/modules';
+import { A11y, Autoplay, Pagination} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
@@ -40,15 +40,24 @@ const Customer = () => {
                     </div>
                     <div className=" max-w-[1916px] mt-8 sm:mt-10 md:mt-[36px]">
                         <Swiper
-                            modules={[A11y]}
+                            modules={[A11y, Autoplay]}
                             slidesPerView={5}
                             centeredSlides={true}
                             spaceBetween={24}
                             roundLengths={true}
                             loop={true}
                             scrollbar={{ draggable: true }}
-                            onSwiper={(swiper) => console.log(swiper)}
-                            onSlideChange={() => console.log('slide change')}
+                            autoplay={{
+                                delay: 3000,  // Adjust autoplay delay as needed
+                                disableOnInteraction: false,
+                                speed: 2000,
+                                // Autoplay continues even when user interacts with swiper
+                            }}
+                            breakpoints={{
+                                640:{
+                                    autoplay:false,
+                                }
+                            }}  
                         >
                             {customerData.map((obj, index) => {
                                 return (
@@ -74,10 +83,9 @@ const Customer = () => {
                         </Swiper>
                     </div>
                 </div>
-            </div >
-
+            </div>
         </>
     )
 }
 
-export default Customer
+export default Customer;
