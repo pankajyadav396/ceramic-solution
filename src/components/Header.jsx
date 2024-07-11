@@ -4,8 +4,8 @@ import { PrimaryButton } from './common/PrimaryButton'
 import googlelogo from "../assets/images/svg/googleLogo.svg"
 import pilotlogo from "../assets/images/svg/trustPilotLogo.svg"
 import stars from "../assets/images/svg/yellowStars.svg"
-import certified from "../assets/images/webp/certifiedLogo.webp"
 import quality from "../assets/images/webp/qualityBusiness.webp"
+import certified from "../assets/images/webp/certifiedLogo.webp"
 
 const Header = () => {
     return (
