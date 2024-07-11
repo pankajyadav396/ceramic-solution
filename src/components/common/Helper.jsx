@@ -1,19 +1,19 @@
-import kitchenBacksplash from "../../assets/images/webp/kitchenBacksplash.webp"
-import customShowers from "../../assets/images/webp/customShowers.webp"
-import customFlooring from "../../assets/images/webp/customFlooring.webp"
-import largeFormatTiling from "../../assets/images/webp/largeFormatTiling.webp"
-import wallTiling from "../../assets/images/webp/wallTiling.webp"
-import compliantShowers from "../../assets/images/webp/compliantShowers.webp"
-import fireplaceTiling from "../../assets/images/webp/fireplaceTiling.webp"
-import markt1 from "../../assets/images/webp/markt1.webp"
-import markt2 from "../../assets/images/webp/markt2.webp"
-import markt3 from "../../assets/images/webp/markt3.webp"
-import RedTik from "../../assets/images/svg/redTik.svg"
-import Blogimg from "../../assets/images/webp/ourBlogImg.webp"
-import location from "../../assets/images/svg/locationIcon.svg"
+import kitchenBacksplash from "../../assets/images/webp/kitchen-backsplash.webp"
+import customShowers from "../../assets/images/webp/custom-showers.webp"
+import customFlooring from "../../assets/images/webp/custom-flooring.webp"
+import largeFormatTiling from "../../assets/images/webp/large-format-tiling.webp"
+import wallTiling from "../../assets/images/webp/wall-tiling.webp"
+import compliantShowers from "../../assets/images/webp/compliant-showers.webp"
+import fireplaceTiling from "../../assets/images/webp/fireplace-tiling.webp"
+import markt1 from "../../assets/images/webp/mark-t-1.webp"
+import markt2 from "../../assets/images/webp/mark-t-2.webp"
+import markt3 from "../../assets/images/webp/mark-t-3.webp"
+import RedTik from "../../assets/images/svg/red-tick.svg"
+import Blogimg from "../../assets/images/webp/our-blog.webp"
+import location from "../../assets/images/svg/location-icon.svg"
 import { CalerProcess, PinkStar, Thumb } from "./Icons"
 
-export const homeData = [
+export const homeList = [
     {
         img: kitchenBacksplash,
         title: "Kitchen Backsplash",
@@ -58,7 +58,7 @@ export const homeData = [
     },
 ]
 
-export const processData = [
+export const processList = [
     {
         icon: <PinkStar />,
         title: "High Quality Materials",
@@ -76,7 +76,7 @@ export const processData = [
     },
 ]
 
-export const customerData = [
+export const customerList = [
     {
         img: markt1,
         title: "Mark T.",
@@ -115,7 +115,7 @@ export const customerData = [
     },
 ]
 
-export const howWorksData = [
+export const howWorksList = [
     {
         img: RedTik,
         title: "Contact us",
@@ -132,7 +132,7 @@ export const howWorksData = [
         description: "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening"
     },
 ]
-export const ourBlogData = [
+export const ourBlogList = [
     {
         img: Blogimg,
         title: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
@@ -150,9 +150,18 @@ export const ourBlogData = [
     },
 ]
 
-export const locationData = [
+export const locationList = [
     {
         title: "Knoxville",
+        img: location,
+    },
+    {
+        title: "Sevierville",
+        img: location,
+    },
+
+    {
+        title: "Maynardville",
         img: location,
     },
     {
@@ -160,7 +169,12 @@ export const locationData = [
         img: location,
     },
     {
-        title: "Knoxville",
+        title: "Sevierville",
+        img: location,
+    },
+
+    {
+        title: "Maynardville",
         img: location,
     },
     {
@@ -168,7 +182,12 @@ export const locationData = [
         img: location,
     },
     {
-        title: "Knoxville",
+        title: "Sevierville",
+        img: location,
+    },
+
+    {
+        title: "Maynardville",
         img: location,
     },
     {
@@ -176,7 +195,12 @@ export const locationData = [
         img: location,
     },
     {
-        title: "Knoxville",
+        title: "Sevierville",
+        img: location,
+    },
+
+    {
+        title: "Maynardville",
         img: location,
     },
     {
@@ -184,7 +208,12 @@ export const locationData = [
         img: location,
     },
     {
-        title: "Knoxville",
+        title: "Sevierville",
+        img: location,
+    },
+
+    {
+        title: "Maynardville",
         img: location,
     },
     {
@@ -192,7 +221,12 @@ export const locationData = [
         img: location,
     },
     {
-        title: "Knoxville",
+        title: "Sevierville",
+        img: location,
+    },
+
+    {
+        title: "Maynardville",
         img: location,
     },
     {
@@ -200,40 +234,12 @@ export const locationData = [
         img: location,
     },
     {
-        title: "Knoxville",
-        img: location,
-    },
-    {
-        title: "Knoxville",
-        img: location,
-    },
-    {
-        title: "Knoxville",
-        img: location,
-    },
-    {
-        title: "Knoxville",
-        img: location,
-    },
-    {
-        title: "Knoxville",
-        img: location,
-    },
-    {
-        title: "Knoxville",
-        img: location,
-    },
-    {
-        title: "Knoxville",
-        img: location,
-    },
-    {
-        title: "Knoxville",
+        title: "Sevierville",
         img: location,
     },
 ]
 
-export const accordionData = [
+export const accordionList = [
     {
         title: "Lörem ipsum koda astrobel: sutaveligen.",
         content: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade",

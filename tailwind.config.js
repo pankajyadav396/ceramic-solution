@@ -6,16 +6,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "plusSans": "plus jakarta sans",
+        "plus-sans": "plus jakarta sans",
         "manrop": "manrope",
       },
       colors: {
-        "lightRed": "#FF0000",
-        "lightPink": "#FFEBEB",
-        "darkBlue": "#1B2228",
-        "lightBlack": "#141414",
-        "greyBlack": "#010101",
-        "footBlack": "#1B2228"
+        "light-red": "#FF0000",
+        "light-pink": "#FFEBEB",
+        "light-grey": "#E0E0E0",
+        "dark-blue": "#1B2228",
+        "light-black": "#141414",
+        "grey-black": "#010101",
+        "foot-black": "#1B2228"
       },
       fontSize: {
         "5xxl": "64px",
@@ -28,12 +29,23 @@ module.exports = {
         "127": "127%",
       },
       boxShadow: {
-        "smallBlack": "0px 0px 12px 3px #B6B6B640",
-        "xsmBlack": "0px 2px 44px 3px #5757571A;",
-        "grey": "0px 1px 28px 1px #4747471A;"
+        "small-black": "0px 0px 12px 3px #B6B6B640",
+        "xs-black": "0px 2px 44px 3px #5757571A;",
+        "grey": "0px 1px 28px 1px #4747471A;",
+        "lg-black": "0px 2px 44px 3px #5757575D;"
       },
       backgroundImage: {
-        "blackGrediant": "linear-gradient(90deg, rgba(22, 22, 22, 0) 0%, #696969 51.56%, rgba(22, 22, 22, 0) 100%);"
+        "black-grediant": "linear-gradient(90deg, rgba(22, 22, 22, 0) 0%, #696969 51.56%, rgba(22, 22, 22, 0) 100%);",
+      },
+      screens: {
+        "678": "678px",
+        "430": "430px",
+        "460": "460px",
+        "450": "450px",
+      },
+      borderRadius: {
+        "62": "62px",
+        "56": "56px",
       }
     },
   },

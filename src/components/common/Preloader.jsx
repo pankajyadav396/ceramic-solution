@@ -20,10 +20,10 @@ const Preloader = () => {
                 <div className='flex items-center justify-center h-screen'>
                     <div className=' flex flex-col justify-center gap-5 items-center'>
                         <div className="loader  inline-block relative w-[80px] h-[80px]">
-                            <div className='absolute top-[3px] w-4 h-4 rounded-full bg-lightRed'></div>
-                            <div className='absolute top-[3px] w-4 h-4 rounded-full bg-lightRed'></div>
-                            <div className='absolute top-[3px] w-4 h-4 rounded-full bg-lightRed'></div>
-                            <div className='absolute top-[3px] w-4 h-4 rounded-full bg-lightRed'></div>
+                            <div className='absolute top-[3px] w-4 h-4 rounded-full bg-light-red'></div>
+                            <div className='absolute top-[3px] w-4 h-4 rounded-full bg-light-red'></div>
+                            <div className='absolute top-[3px] w-4 h-4 rounded-full bg-light-red'></div>
+                            <div className='absolute top-[3px] w-4 h-4 rounded-full bg-light-red'></div>
                         </div>
                     </div>
                 </div>
