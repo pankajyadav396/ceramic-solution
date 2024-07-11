@@ -4,13 +4,13 @@ import { PrimaryButton } from './common/PrimaryButton'
 import googlelogo from "../assets/images/svg/googleLogo.svg"
 import pilotlogo from "../assets/images/svg/trustPilotLogo.svg"
 import stars from "../assets/images/svg/yellowStars.svg"
-import quality from "../assets/images/webp/qualityBusiness.webp"
+// import quality from "../assets/images/webp/qualityBusiness.webp"
 import certified from "../assets/images/webp/certifiedLogo.webp"
 
 const Header = () => {
     return (
         <>
-            <div className='bg-lightRed pt-6 lg:min-h-[810px] pb-[59px]' id='home'> 
+            <div className='bg-lightRed pt-6 lg:min-h-[810px] pb-[59px]' id='home'>
                 <Navbar />
                 <div className='mx-auto max-w-[1172px] px-4 md:mt-16 mt-10 lg:mt-[79px] '>
                     <h1 className='max-sm:mx-auto max-sm:text-center lg:text-5xxl md:text-6xl sm:text-5xl text-3xl text-white font-semibold !leading-127 font-plusSans max-w-[830px]'>
@@ -47,7 +47,7 @@ const Header = () => {
                             </div>
                         </div>
                         <img src={certified} alt="certified-img" className='w-[80px]' />
-                        <img src={quality} alt="certified-img" className='w-[80px]' />
+                        {/* <img src={quality} alt="certified-img" className='w-[80px]' /> */}
                     </div>
                 </div>
 
