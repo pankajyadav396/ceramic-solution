@@ -39,7 +39,6 @@ const Customer = () => {
                         </div>
                     </div>
                     <div className=" max-w-[1916px] mt-8 sm:mt-10 md:mt-[36px]">
-
                         <Swiper
                             modules={[A11y]}
                             slidesPerView={5}
