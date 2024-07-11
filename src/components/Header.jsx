@@ -4,7 +4,7 @@ import { PrimaryButton } from './common/PrimaryButton'
 import googlelogo from "../assets/images/svg/googleLogo.svg"
 import pilotlogo from "../assets/images/svg/trustPilotLogo.svg"
 import stars from "../assets/images/svg/yellowStars.svg"
-// import quality from "../assets/images/webp/qualityBusiness.webp"
+import quality from "../assets/images/webp/qualitBusinessAwards.webp"
 import certified from "../assets/images/webp/certifiedLogo.webp"
 
 const Header = () => {
@@ -47,7 +47,7 @@ const Header = () => {
                             </div>
                         </div>
                         <img src={certified} alt="certified-img" className='w-[80px]' />
-                        {/* <img src={quality} alt="certified-img" className='w-[80px]' /> */}
+                        <img src={quality} alt="certified-img" className='w-[80px]' />
                     </div>
                 </div>
 
