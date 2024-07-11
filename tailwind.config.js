@@ -15,13 +15,12 @@ module.exports = {
         "darkBlue": "#1B2228",
         "lightBlack": "#141414",
         "greyBlack": "#010101",
-        "footBlack":"#1B2228"
+        "footBlack": "#1B2228"
       },
       fontSize: {
-        "exlg": "64px",
-        "x6xl": "56px",
-        "mdlg": "32px",
-        "xsm": "12px",
+        "5xxl": "64px",
+        "4xxl": "56px",
+        "2xxl": "32px",
       },
       lineHeight: {
         "160": "160%",

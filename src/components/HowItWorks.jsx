@@ -1,4 +1,4 @@
-import wallimg from '../assets/images/webp/HowWorksImg.webp'
+import wallimg from '../assets/images/webp/howItWorks.webp'
 import { howWorksData } from './common/Helper'
 import PrimaryButton from './common/PrimaryButton'
 
@@ -11,7 +11,7 @@ const HowItWorks = () => {
                         <img src={wallimg} alt="howitworksimg" className='w-full' />
                     </div>
                     <div className='lg:w-7/12  w-full lg:ps-6 xl:ps-[63px] max-lg:flex justify-center items-center flex-col'>
-                        <h2 className='text-black max-lg:text-center font-plusSans !leading-127 font-semibold mb-5 lg:text-x6xl md:text-5xl sm:text-4xl text-3xl'>How It Works?</h2>
+                        <h2 className='text-black max-lg:text-center font-plusSans !leading-127 font-semibold mb-5 lg:text-4xxl md:text-5xl sm:text-4xl text-3xl'>How It Works?</h2>
                         <p className='max-w-[590px] max-lg:text-center font-plusSans text-lg leading-160 mx-auto mb-8'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. </p>
                         <div className=' flex flex-col gap-4'>
                             {howWorksData.map((obj, index) => {

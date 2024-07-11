@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Backtotopicon } from './Icons';
+import { BackToTopIcon } from './Icons';
 
 
 const Backtotop = () => {
@@ -25,7 +25,7 @@ const Backtotop = () => {
                 onClick={scrollToTop}
                 style={{ display: isVisible ? 'block' : 'none', }} >
                 <div className=' p-[10px] 576:p-[15px] rounded-full bg-yellow_gradient_right flex justify-center items-center'>
-                    <Backtotopicon />
+                    <BackToTopIcon/>
                 </div>
             </button>
         </>
