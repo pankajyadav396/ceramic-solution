@@ -59,7 +59,7 @@ const Footer = () => {
                                     <ul>
                                         <li className='text-xl leading-160 text-darkBlue font-semibold font-plusSans mb-5'>Newsletter</li>
                                         <li className='mb-3'><a href="#contactus" className='capitalize text-darkBlue hover:after:w-full hover:after:left-0 after:right-0 after:w-0 after:absolute after:bg-darkBlue  after:h-[1.5px] relative after:bottom-[-2px] after:rounded-[15px] after:transition-all after:duration-300 after:ease-linear text-base font-plusSans font-normal leading-160'>Stay up to date</a></li>
-                                        <div className='border max-w-[340px] border-darkBlue border-opacity-15 p-[25px_10px_10px_10px] rounded-[62px] flex items-center justify-between'>
+                                        <div className='border max-w-[340px] border-darkBlue border-opacity-15 p-[10px_10px_10px_25px] rounded-[62px] flex items-center justify-between'>
                                             <input type="email" className='w-[110px] !outline-none' placeholder='Your email ' />
                                             <button className='px-10 py-4 bg-lightRed duration-300 hover:bg-white hover:text-lightRed outline outline-[1px] hover:outline-lightRed font-plusSans text-base leading-[26px] font-semibold text-white rounded-[62px]'>Subscribe</button>
                                         </div>
@@ -69,7 +69,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className='bg-blackGrediant flex h-[1px] w-full'></div>
                 <div className='py-4'>
                     <p className=' font-plusSans font-normal leading-160 text-base text-darkBlue text-center'>Copyright {currentYear} ceramicsolutions.com all rights reserved</p>
