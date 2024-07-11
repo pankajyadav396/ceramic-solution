@@ -3,7 +3,7 @@ import pilotlogo from "../assets/images/svg/trustPilotLogo.svg"
 import stars from "../assets/images/svg/yellowStars.svg"
 import React from "react";
 import { customerData } from "./common/Helper";
-import { A11y, Autoplay, Pagination} from 'swiper/modules';
+import { A11y, Autoplay} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
