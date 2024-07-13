@@ -14,7 +14,7 @@ const Accordion = ({ items }) => {
 
     return (
         <div className="max-w-[912px] px-3 mx-auto xl:mt-[140px] lg:mt-20 md:mt-16 mt-14">
-            <h2 className='text-black text-center font-plus-sans !leading-127 font-semibold mb-5 lg:text-4xxl md:text-5xl sm:text-4xl text-3xl'>Frequently Asked Questions</h2>
+            <h2 className='text-black text-center font-plus-sans !leading-127 font-semibold sm:mb-4 mb-3 md:mb-5 lg:text-4xxl md:text-5xl sm:text-4xl text-3xl'>Frequently Asked Questions</h2>
             <p className='max-w-[590px] text-center text-grey-black text-lg leading-160 mx-auto md:mb-14 mb-8 sm:mb-12'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade </p>
             {accordionList.map((item, index) => (
                 <div key={index} className="shadow-xs-black mb-6 rounded-2xl">
