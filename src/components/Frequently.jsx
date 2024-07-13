@@ -18,7 +18,7 @@ const Accordion = ({ items }) => {
             <p className='max-w-[590px] text-center text-grey-black text-lg leading-160 mx-auto md:mb-14 mb-8 sm:mb-12'>Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade </p>
             {accordionList.map((item, index) => (
                 <div key={index} className="shadow-xs-black mb-6 rounded-2xl">
-                    <button className="w-full flex justify-between gap-5 items-center p-4 sm:p-[21.6px_20px] rounded-2xl"
+                    <button className="w-full flex justify-between gap-5 items-center p-4 sm:py-[21.6px] sm:px-5 rounded-2xl"
                         onClick={() => toggleAccordion(index)} >
                         <p className='text-lg font-plus-sans font-normal text-start leading-160 max-sm:text-base'>{item.title}</p>
                         <svg className={`!min-w-6 !min-h-6 transition-transform transform ${activeIndex === index ? 'rotate-180' : 'rotate-0'
